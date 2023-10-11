@@ -1,0 +1,541 @@
+*{
+    
+    font-family: 'Camphor Pro VF', 'Camphor Pro', sans-serif;
+    font-weight: 400;
+}
+body{
+   
+    margin: 0;
+   
+    width: 100%;
+    
+}
+.main-body{
+    background-color: #DCDCDC;
+    overflow: hidden;
+}
+.header{
+    width: 100%;
+    position: fixed;
+    background-color: #fff;
+    z-index: 1;
+}
+
+img{
+    
+    top: 0;
+    left: 0; 
+    width: 25px;
+    height: 25px;
+    
+    margin-left: 23px;
+    margin-top: 12px;
+}
+.left{
+    font-size: 14px;
+    margin-top: -23px;
+    margin-left: 34px;
+    display: flex;
+    gap: 18px;
+    list-style-type: none;
+}
+.right{
+    float: right;
+    margin-right: 165px;
+    margin-top: -28px;
+    display: flex;
+    gap: 27px;
+    font-size: 14px;
+    list-style-type: none;
+}
+.header-right{
+    display: flex;
+    float: right;
+    gap: 12px;
+}
+.right-logo{
+    float: right;
+    margin-right: 43px;
+    margin-top: -30px;
+    display: flex;
+    gap: 22px;
+    font-size: 15.5px;
+}
+ .img1 {
+    width: 100%;
+    height: 258px;
+    background-color: #fff;
+}
+.mi1{
+    width: 100%;
+    height: 415px;
+    margin-left: 0;
+    margin-right: 0;
+}
+.hed1{
+    position: relative;
+    top: -290px;
+    left: 250px;
+    font-weight: 600;
+    font-family: 'Camphor Pro VF', 'Camphor Pro', sans-serif;
+    cursor: pointer;
+    font-size: 29px;
+}
+.hed2{
+    position: relative;
+    top: -305px;
+    left: 250px;
+    font-weight: 400;
+    font-family: 'Camphor Pro VF', 'Camphor Pro', sans-serif;
+    cursor: pointer;
+    font-size: 21px;
+}
+.black-title{
+    width: 194px;
+    height: 28px;
+    color: #fff;
+    position: relative;
+    top: -306px;
+    left: 250px;
+    background-color: #191919;
+    padding-left: 26px;
+    padding-top: 9px;
+    border-radius: 14px; 
+}
+.mi2{
+    width: 48%;
+    height: 355px;
+    margin-left: 157px;
+    position: relative;
+    left: -143px;
+    top: 171px;
+    cursor: pointer;
+}
+.mi3{
+    width: 48%;
+    height: 355px;
+    float: right;
+    position: relative;
+    top: -332px;
+    left: -14px;
+    cursor: pointer;
+}
+.hed3{
+    position: relative;
+    top: -164px;
+    left: 152px;
+    font-size: 30px;
+    font-weight: 600;
+    font-size: 25px;
+
+}
+.hed4{
+    position: relative;
+    top: -174px;
+    left: 207px;
+    overflow: hidden;
+    font-size: 13px;
+}
+.hed5{
+    position: relative;
+    top: -180px;
+    left: 227px;
+    overflow: hidden;
+    font-size: 14px;
+    color: orangered;
+}
+.hed6{
+    position: relative;
+    left: 742px;
+    top: -276px;
+    color: #fff;
+    font-weight: bold !important;
+    font-size: max(2.22222vw,12px);
+}
+.hed7{
+    line-height: 1.38889vw;
+    margin-top: 0.55556vw;
+    position: relative;
+    left: 777px;
+    top: -291px;
+    font-size: 13px;
+    color: #fff;
+    font-size: max(1.11111vw,12px);
+}
+.hed8{
+    position: relative;
+    top: -297px;
+    left: 805px;
+    font-size: 14px;
+    color: #fff;
+}
+.img3{
+    width: 100%;
+    height: 361px;
+    background-color: #DCDCDC;
+    position: relative;
+    top: -69px;
+}
+.mi4{
+    position: relative;
+    top: -257px;
+    left: -8px;
+    width: 48%;
+    height: 362px;
+}
+.hed9{
+    position: relative;
+    top: -608px;
+    left: 104px;
+    overflow: hidden;
+    font-size: max(2.22222vw,12px);
+    font-weight: bold;
+}
+.hed10{
+    position: relative;
+    top: -620px;
+    left: 253px;
+    overflow: hidden;
+    font-size: max(2.22222vw,12px);
+    font-weight: bold;
+}
+.hed11{
+    position: relative;
+    top: -627px;
+    left: 215px;
+    overflow: hidden;
+    font-size: 13px;
+    font-weight: 700px;
+}
+.hed12  {  
+position: relative;
+top: -611px;
+left: 253px;
+overflow: hidden;
+font-size: 14px;
+color: orangered;
+}
+.mi5{
+    position: relative;
+    left: -310px;
+    top: -813px;
+    height: 361px;
+    width: 258px;
+    float: right;
+}
+.hed13{
+    position: relative;
+    top: -776px;
+    left: 599px;
+    overflow: hidden;
+    font-size: 27px;
+    color: #fff;
+    font-weight: bold;
+}
+.hed14{
+    position: relative;
+    top: -791px;
+    left: 621px;
+    overflow: hidden;
+    font-size: 13.5px;
+    color: #fff;
+}
+.hed15{
+    position: relative;
+    top: -780px;
+    left: 669px;
+    overflow: hidden;
+    font-size: 13.5px;
+    color: #fff;
+}
+
+.side-white{
+    position: relative;
+    height: 360px;
+    width: 280px;
+    left: 855px;
+    top: -918px;
+    background-color: #fff;
+}
+.hed16{
+    position: absolute;
+    left: 58px;
+    top: 5px;
+    overflow: hidden;
+    font-size: 24px;
+    font-weight: bold;
+}
+.hed17{
+    position: absolute;
+    left: 75px;
+    top: 48px;
+    overflow: hidden;
+    font-size: 12.5px;
+}
+.hed18{
+    position: absolute;
+    left: 93px;
+    top: 91px;
+    overflow: hidden;
+    font-size: 14px;
+    color: orangered
+}
+.mi6{
+    position: relative;
+    left: -35px;
+    top: 117px;
+    height: 208px;
+    width: 208px;
+    float: right;
+}
+.video{
+    position: relative;
+    top: -37px;
+    width: 100%;
+    height: 360px;
+    background-color: #fff;
+    cursor: pointer;
+}
+.mi7_new{
+    position: relative;
+    width: 45%;
+    height: 334px;
+    left: 34px;
+}
+.hed19{
+    position: relative;
+    left: 792px;
+    top: -296px;
+    overflow: hidden;
+    font-size: 13px;
+    color: orangered;
+    font-weight: bold;
+}
+.hed20{
+    position: relative;
+    left: 750px;
+    top: -304px;
+    overflow: hidden;
+    font-size: 26.5px;
+    color: black;
+    font-weight: 700px;
+}
+.hed21{
+    position: relative;
+    left: 678px;
+    top: -304px;
+    overflow: hidden;
+    font-size: 14.5px;
+    color: #303030;
+}
+.hed22{
+    position: relative;
+    left: 778px;
+    top: -309px;
+    overflow: hidden;
+    font-size: 14.5px;
+    color: #303030;
+}
+.hed23{
+    position: relative;
+    left: 801px;
+    top: -293px;
+    overflow: hidden;
+    font-size: 14.5px;
+    color: #303030;
+}
+.above-footer{
+    width: 100%;
+    height: 405px;
+    background-color: #DCDCDC;
+}
+
+ .above-footer-left{
+    position: relative;
+    left: 39px;
+    width: 46%;
+    height: 404px;
+    background-color: #fff;
+}
+.above-left{
+    width: 155px;
+    height: 91px;
+    background-color: darkred;
+    position: relative;
+    top: 88px;
+    left: 0;
+}
+.above-center{
+    width: 174px;
+    height: 88px;
+    background-color: darkred;
+    position: relative;
+    top: -2px;
+    left: 175px;
+}
+.above-right{
+    width: 152px;
+    height: 88px;
+    background-color: darkred;
+    position: relative;
+    float: right;
+    top: -260px;
+}
+.Left{
+    position: relative;
+    top: 109px;
+    left: 10px;
+    font-size: 15px;
+}
+.Center{
+    position: relative;
+    top: 80px;
+    left: 200px;
+    font-size: 15px;
+}
+.Right{
+    position: relative;
+    top: 52px;
+    left: 355px;
+    font-size: 15px;
+
+}
+.IMG1{
+    position: relative;
+    top: 109px;
+    left: 33px;
+    width: 48px;
+    height: 26px;
+}
+.IMG2{
+    position: absolute;
+    top: 156px;
+    left: 224px;
+    width: 51px;
+}
+.IMG3{
+    position: absolute;
+    top: 156px;
+    left: 390px;
+    width: 51px;
+}
+
+.hed24{
+    position: relative;
+    top: 73px;
+    left: 139px;
+    font-weight: 600;
+}
+.IMG4{
+    position: absolute;
+    top: -11px;
+    left: 520px;
+    width: 524px;
+    height: 188px;
+}
+.IMG5{
+    position: absolute;
+    top: 194px;
+    left: 520px;
+    width: 523px;
+    height: 197px;
+}
+.footer{
+    width: 100%;
+    height: 500px;
+    background-color:#191919;
+    
+}
+.support{
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Camphor Pro VF', 'Camphor Pro', sans-serif;
+    font-weight: bold;
+    display: block;
+    position: relative;
+    top: 51px;
+    left: 26px;
+
+}
+.su{
+    color: #898989;
+    list-style: none;
+    position: relative;
+    top: 52px;
+    left: -14px;
+    line-height: 31px;
+    font-size: 13px;
+    font-family: 'Camphor Pro VF', 'Camphor Pro', sans-serif;
+}
+
+.sh{
+    list-style: none;
+    position: relative;
+    top: -377px;
+    left: 172px;
+    color: #898989;
+    line-height: 32px;
+    font-size: 13px;
+    font-family: 'Camphor Pro VF', 'Camphor Pro', sans-serif;
+    font-weight: 400;
+    display: block;
+}
+.SHOP{
+    font-weight: bold;
+    color: #fff;
+}
+.re{
+    list-style: none;
+    position: relative;
+    top: -646px;
+    left: 360px;
+    color: #898989;
+    line-height: 32px;
+    font-size: 13px;
+    font-family: 'Camphor Pro VF', 'Camphor Pro', sans-serif;
+    font-weight: 400;
+    display: block;
+}
+.RE{
+    font-weight: bold;
+    color: #fff;
+}
+.ab{
+    list-style: none;
+    position: relative;
+    top: -784px;
+    left: 567px;
+    color: #898989;
+    line-height: 32px;
+    font-size: 13px;
+    font-family: 'Camphor Pro VF', 'Camphor Pro', sans-serif;
+    font-weight: 400;
+    display: block;
+}
+.AB{
+    font-weight: bold;
+    color: #fff;
+
+}
+.ic{
+    position: absolute;
+}
+.h1{
+    position: relative;
+    top:20px;
+    left: 20px;
+    width: 100%;
+    height: 80px;
+
+}
+.img-last{
+    position: relative;
+    top:20px;
+    left: 20px;
+    width: 100%;
+    height: 80px;
+}
+
+
+
+
